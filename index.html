@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Box icons-->
+    <!--icones de caixa-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--css a se usar-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+
+    <title>Site Responsivo Roupas</title>
+</head>
+<body>
+    <!--scroll top-->
+    <a href="#" class="scrolltop scroll-top" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon '></i>
+    </a>
+
+
+
+
+    <!--header-->
+    <header class="l-header "  id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Ice Dream</a>
+
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link ">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Roupas</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacte-nos</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+
+            <div class="nav__toggle" id="nav-toggle">
+                <!--logo tirado do site boxicons.com-->
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--============Home============-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Ice Dream</h1>
+                    <h2 class="home__subtitle">Aprecie as melhores <br>Roupas da semana.</h2>
+                    <a href="#menu" class="button">Ver Roupas</a>
+                </div>
+
+                <img src="assets/img/home.png" alt="" class="home__img">
+            </div>
+        </section>
+        <!--============About============-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">Sobre nós</span>
+                    <h2 class="section-title about__initial">As melhores roupas <br>Ice Dream</h2>
+                    <p class="about__description">Nós temos as melhores roupas da cidade,com o melhor atendimento ao cliente, os melhores preços, visite-nos para mais informações.</p>
+                    <a href="#menu" class="button">Novidades</a>
+                </div>
+
+                <img src="assets/img/about1.png" alt="" class="about__img">
+            </div>
+        </section>
+        <!--==============Services================-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Oferta</span>
+            <h2 class="section-title">Nosso incrível serviço</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.999,8c0-0.181-0.049-0.359-0.143-0.515L19.147,2.97C18.788,2.372,18.131,2,17.433,2H6.565 C5.867,2,5.21,2.372,4.851,2.971L2.142,7.485C2.048,7.641,1.999,7.819,1.999,8c0,1.005,0.386,1.914,1,2.618V11v2v7 c0,0.553,0.447,1,1,1h8c0.553,0,1-0.447,1-1v-5h4v5c0,0.553,0.447,1,1,1h2c0.553,0,1-0.447,1-1v-7v-2v-0.382 C21.613,9.914,21.999,9.005,21.999,8z M19.983,8.251C19.859,9.236,19.017,10,17.999,10c-1.103,0-2-0.897-2-2 c0-0.068-0.025-0.128-0.039-0.192l0.02-0.004L15.219,4h2.214L19.983,8.251z M10.006,8.065L10.818,4h2.361l0.813,4.065 C13.957,9.138,13.079,10,11.999,10S10.041,9.138,10.006,8.065z M6.565,4h2.214L8.019,7.804l0.02,0.004 C8.024,7.872,7.999,7.932,7.999,8c0,1.103-0.897,2-2,2c-1.018,0-1.86-0.764-1.984-1.749L6.565,4z M9.999,16h-4v-3h4V16z"/></svg>
+                    <h3 class="services__title">EStabelecimento Físico</h3>
+                    <p class="services__description">Nós ofercemos aos nossos clientes uma excelente qualidade de serviços por muitos anos.</p>                  
+                </div>
+                <div class="services__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.316,4.055C19.556,3.478,15,1.985,15,2c0,1.657-1.343,3-3,3S9,3.657,9,2c0-0.015-4.556,1.478-6.317,2.055 C2.272,4.19,2,4.571,2,5.003v3.716c0,0.65,0.611,1.128,1.242,0.97L6,9v11v1c0,0.552,0.447,1,1,1h1h8h1c0.553,0,1-0.448,1-1v-3V9 l2.758,0.689C21.389,9.847,22,9.37,22,8.719V5.003C22,4.571,21.728,4.19,21.316,4.055z"/></svg>                        
+                    <h3 class="services__title">Todos Estilos</h3>
+                    <p class="services__description">Nós ofercemos aos nossos clientes uma excelente qualidade de serviços por muitos anos, com os melhores estilos de Roupa.</p>                  
+                </div>
+                <div class="services__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5,22h14c1.104,0,2-0.896,2-2V9c0-0.553-0.447-1-1-1h-3V7.223c0-2.609-1.903-4.945-4.5-5.198C9.52,1.733,7,4.078,7,7v1H4 C3.447,8,3,8.447,3,9v11C3,21.104,3.896,22,5,22z M17,10v2h-2v-2H17z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M7,10h2v2H7V10z"/></svg>                                       
+                    <h3 class="services__title">Entrega ao Domicílio</h3>
+                    <p class="services__description">Nós ofercemos aos nossos clientes uma excelente qualidade de serviços por muitos anos, com os melhores trajes da cidade.</p>                  
+                </div>
+            </div>
+        </section>
+
+        <!--==============Services================-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Novidades Masculina</span>
+            <h2 class="section-title">Roupas </h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="assets/img/roupa5.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Jaqueta Jeans</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2220.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/roupa2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Camisas Flaneladas</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2240.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/roupa4.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Camisolas com Capuz</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2200.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/roupa3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Camisas de Verão</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2000.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--==============Services================-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Novidades Feminina</span>
+            <h2 class="section-title">Roupas </h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="assets/img/roupaf1.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Blusa Hipster e Chapeu</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">1140.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/roupaf2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Blusa de Verão</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2500.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/roupaf4.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Camisolas com Capuz</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2200.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/roupaf3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Camisas Flaneladas</h3>
+                    <span class="menu__detail">Ao melhor preço</span>
+                    <span class="menu__price">2000.00Mzn</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-purchase-tag'></i></a>
+                </div>
+            </div>
+        </section>
+        <!--========== App ==============-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">App está Disponível</h2>
+                    <p class="app__description">Encontra a sua aplicação e faça o download, voce pode fazer a sua reserva, monitorizar a sua reserva durante a trajectória e muito mais.</p>
+                    <div class="app__stores">
+                        <!--<a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>-->
+                        <!--<a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>-->
+                    </div>
+                </div>
+                <!--<img src="assets/img/movil-app.png" alt="" class="app__img">-->
+            </div>
+        </section>
+        <!--============== Contact Us ===============-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Vamos falar</span>
+                    <h2 class="section-title contact__initial">Contacte-nos</h2>
+                    <p class="contact__description">Se tu quiseres uma reserva de uma peça de roupa, Contacte-nos e iremos atende-lo rapidamente, com o nosso serviço de 24/7.</p>
+                </div> 
+                
+                <div class="contact__button">
+                    <a href="#" class="button">Contacte-nos agora</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <!--footer/rodape-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Ice Dream</a>
+                <span class="footer__description">Roupas</span>
+
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer__content">
+                <h3 class="footer__title">Serviços</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Entregas</a></li>
+                    <li><a href="#" class="footer__link">Preços</a></li>
+                    <li><a href="#" class="footer__link">Trajes</a></li>
+                    <li><a href="#" class="footer__link">Reserva de Peças</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Informação</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Estilos Exclusivos</a></li>
+                    <li><a href="#" class="footer__link">Contacte-nos</a></li>
+                    <li><a href="#" class="footer__link">Politíca e Privacidade</a></li>
+                    <li><a href="#" class="footer__link">Termos e Condições</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Endereço</h3>
+                <ul>
+                    <li>Maputo - Moçambique</li>
+                    <li>Jay Bag #888</li>
+                    <li>847185821</li>
+                    <li>icedream@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p class="footer__copy">&#169; 2021 João Bagvanji. All right reserved.</p>
+    </footer>
+
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main js-->
+    <!--chamando o ficheiro javascript-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
